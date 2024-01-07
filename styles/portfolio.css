@@ -150,3 +150,10 @@ main {
         color: #757575;
         font-weight: 400;
 }
+#what-i-do-description{
+    padding: 20px 150px;
+    
+}
+.skills-container{
+    display: flex;
+}
