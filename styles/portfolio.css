@@ -231,14 +231,29 @@ main {
 footer {
 
     display: flex;
+    gap: 100px;
     background: #FFF8F3;
-    padding: 130px 230px;
     margin-top: 130px;
+    width: 1600px;
+    height: 780px;
 }
 
-.section-title {
-
-}
 .footer-column{
     width: 50%;
+}
+.contact ,input,textarea{
+    display: block;
+    margin-bottom: 30px;
+    color:#757575;
+    padding: 18px 35px;
+
+}
+.contact input[type="text"]{
+    padding: 18px 300px 18px 30px;
+}
+.social-link a{
+    margin-right: 25px;
+}
+.footer-section-description{
+    margin-bottom: 50px;
 }
