@@ -24,9 +24,6 @@ body {
     color: #FFF;
 }
 
-
-
-
 /* nav related styles */
 
 nav {
@@ -180,7 +177,7 @@ main {
 
 }
 
-.slill-description {
+.skill-description {
     color: #757575;
 }
 
@@ -192,8 +189,9 @@ main {
 }
 
 .resume-container {
+    justify-content: space-between;
     display: flex;
-    gap: 50px justify-content: space-between;
+    gap: 50px
 }
 
 .resume-item-description {
@@ -219,10 +217,28 @@ main {
     line-height: normal;
     margin-bottom: 10px;
 }
-.resume-container hr{
+
+.resume-container hr {
     margin: 60px;
 }
-.cv{
+
+.cv {
     margin-top: 50px;
     text-align: center;
+}
+
+/* footer style */
+footer {
+
+    display: flex;
+    background: #FFF8F3;
+    padding: 130px 230px;
+    margin-top: 130px;
+}
+
+.section-title {
+
+}
+.footer-column{
+    width: 50%;
 }
