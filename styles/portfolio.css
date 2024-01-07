@@ -9,6 +9,7 @@ body{
     border-radius: 5px;
     background: #FD6E0A;
     border: 0;
+    color: #FFF;
     font-size: 20px;
     font-weight: 700;
     padding: 15px 35px;
@@ -23,6 +24,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 200px;
 }
 nav > ul{
     display: flex;
@@ -41,4 +43,16 @@ nav a{
     color: var(--Dark-01, #181818);
     font-size: 45px;
     font-weight: 800;
+}
+.headerclass{
+    background: #FFF8F3;
+}
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+.banner .profile-pic{
+    width: 500px;
+
 }
